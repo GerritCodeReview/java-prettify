@@ -14,7 +14,7 @@ If you need an editor more than a highlighter, please find jsyntaxpane.
 
 ## Alternatives
 
-[Java SyntaxHighlighter](http://code.google.com/p/java-syntax-highlighter/)
+[Java SyntaxHighlighter](https://code.google.com/p/java-syntax-highlighter/)
 
 ## Requirement
 
@@ -98,11 +98,11 @@ public class Example {
 
 ## Sample Screenshot
 
-![sample screenshot](http://java-prettify.googlecode.com/svn/wiki/ThemesDemo/ThemeDesert.png)
+![sample screenshot](https://java-prettify.googlecode.com/svn/wiki/ThemesDemo/ThemeDesert.png)
 
 ## Support & Discussion
 
-[Support & Discussion Group](http://groups.google.com/group/java-prettify)
+[Support & Discussion Group](https://groups.google.com/group/java-prettify)
 
 ## Known Issues
 
