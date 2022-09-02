@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "569589c1_76396b75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2022-09-02T02:22:36Z",
+      "side": 1,
+      "message": "Cool! Am I correct in assuming this is tested? Does PrettifyTest.java work as a java_test?",
+      "revId": "67c3bb235ae671b1dffc8cd7421072e7f58f6cf6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e72d0697_8ce298bb",
+        "filename": "BUILD",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2022-09-02T02:22:36Z",
+      "side": 1,
+      "message": "nit: inconsistent indentation. Does buildozer fix this?",
+      "revId": "67c3bb235ae671b1dffc8cd7421072e7f58f6cf6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
