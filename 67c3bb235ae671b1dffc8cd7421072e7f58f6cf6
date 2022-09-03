@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3f7eed3e_6da1234a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2022-09-03T00:32:27Z",
+      "side": 1,
+      "message": "Ah, thanks. You can get it via the WORKSPACE file, but I think that would take you too far afield from the immediate goal, so probably it\u0027s just worth a note in the commit message that that\u0027s an idea for future work by some future interested person. :)",
+      "parentUuid": "91f5aa06_a1ffe40f",
+      "revId": "67c3bb235ae671b1dffc8cd7421072e7f58f6cf6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e72d0697_8ce298bb",
         "filename": "BUILD",
         "patchSetId": 1
