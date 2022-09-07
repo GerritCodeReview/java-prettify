@@ -39,6 +39,30 @@
       },
       "revId": "1c676e8e8c587e01212745dcd4615aae1b7b7dae",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99bb294b_e27291f1",
+        "filename": "BUILD",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1021893
+      },
+      "writtenOn": "2022-09-07T15:35:35Z",
+      "side": 1,
+      "message": "Yes, the goal is to make java-prettify a sub-module of gitiles (so we can submit bug fixes to java-prettify).",
+      "parentUuid": "a0e16adb_a1a5f331",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 25
+      },
+      "revId": "1c676e8e8c587e01212745dcd4615aae1b7b7dae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
