@@ -16,6 +16,29 @@
       "message": "I don\u0027t have approval permission in this repository --- I\u0027ll try to find a Gerrit maintainer to review this.",
       "revId": "1c676e8e8c587e01212745dcd4615aae1b7b7dae",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0e16adb_a1a5f331",
+        "filename": "BUILD",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1085901
+      },
+      "writtenOn": "2022-09-07T08:39:02Z",
+      "side": 1,
+      "message": "Are you going to use/import this library in gitiles?\n\nI am not sure that it will work with empty WORKSPACE file; Gitiles has its own WORKSPACE file which defines java toolchain (https://gerrit.googlesource.com/gitiles/+/refs/heads/master/WORKSPACE#30).\n\nVoted +2, because this doesn\u0027t make things worse and can be fixed later.",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 25
+      },
+      "revId": "1c676e8e8c587e01212745dcd4615aae1b7b7dae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
