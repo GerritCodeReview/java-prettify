@@ -54,6 +54,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8aba8ca7_e00a3aa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2022-09-07T15:57:08Z",
+      "side": 1,
+      "message": "Marking resolved --- I guess the review thread is good enough and we don\u0027t need a mention in the commit messages. :)",
+      "parentUuid": "3f7eed3e_6da1234a",
+      "revId": "67c3bb235ae671b1dffc8cd7421072e7f58f6cf6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e72d0697_8ce298bb",
