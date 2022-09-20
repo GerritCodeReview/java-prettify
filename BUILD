@@ -4,6 +4,7 @@ java_library(
     resources = [
         "src/prettify/example/example.html",
     ],
+    visibility = ["//visibility:public"],
 )
 
 java_binary(
