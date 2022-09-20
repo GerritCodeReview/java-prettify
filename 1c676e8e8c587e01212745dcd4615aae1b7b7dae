@@ -35,6 +35,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f589d90_b2eef958",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1021893
+      },
+      "writtenOn": "2022-09-20T05:30:36Z",
+      "side": 1,
+      "message": "Thanks for the +1 Verified. However don\u0027t have \"Submit\" privileges either. I cannot submit this CL.",
+      "revId": "1c676e8e8c587e01212745dcd4615aae1b7b7dae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a0e16adb_a1a5f331",
