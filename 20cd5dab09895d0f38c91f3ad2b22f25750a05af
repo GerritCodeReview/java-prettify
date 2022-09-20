@@ -16,6 +16,24 @@
       "message": "How about https://gerrit-review.googlesource.com/c/Public-Projects/+/346174 and https://gerrit-review.googlesource.com/c/Public-Projects/+/346175, which do this for all public projects in a way a bit more consistent with gerrit.git?",
       "revId": "20cd5dab09895d0f38c91f3ad2b22f25750a05af",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb7972b3_8fc840c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1085901
+      },
+      "writtenOn": "2022-09-20T05:44:33Z",
+      "side": 1,
+      "message": "I will ask someone with more context about your suggestions. I don\u0027t know why we don\u0027t have verified and submit permissions by default.",
+      "parentUuid": "a231ceff_c60f3dc9",
+      "revId": "20cd5dab09895d0f38c91f3ad2b22f25750a05af",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
