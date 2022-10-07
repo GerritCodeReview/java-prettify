@@ -3,6 +3,7 @@ java_library(
     srcs = glob(["src/**/*.java"]),
     resources = [
         "src/prettify/example/example.html",
+        "src/prettify/example/text.txt",
     ],
     visibility = ["//visibility:public"],
 )

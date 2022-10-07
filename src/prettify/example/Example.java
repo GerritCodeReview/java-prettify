@@ -16,6 +16,7 @@ package prettify.example;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -99,9 +100,17 @@ public class Example {
         highlighter.setFirstLine(10);
         // set to highlight line 13, 27, 28, 38, 42, 43 and 53
         highlighter.setHighlightedLineList(Arrays.asList(13, 27, 28, 38, 42, 43, 53));
+
+        String resourcePath = "/prettify/example/example.html";
+        if (args.length > 0 && args[0].equals("txt")) {
+          resourcePath = "/prettify/example/text.txt";
+          highlighter.setFirstLine(0);
+          highlighter.setHighlightedLineList(new ArrayList<>());
+        }
+
         try {
           // set the content of the script, the example.html is located in the jar: /prettify/example/example.html
-          highlighter.setContent(new String(readResourceFile("/prettify/example/example.html")));
+          highlighter.setContent(new String(readResourceFile(resourcePath)), resourcePath);
         } catch (IOException ex) {
           LOG.log(Level.SEVERE, null, ex);
         }
