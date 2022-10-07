@@ -26,6 +26,7 @@ public class PrettifyParser implements Parser {
     prettify = new Prettify();
   }
 
+  // Note to gitiles developers: This is gitiles entry point into java-prettifier lib.
   @Override
   public List<ParseResult> parse(String fileExtension, String content) {
     Job job = new Job(0, content);

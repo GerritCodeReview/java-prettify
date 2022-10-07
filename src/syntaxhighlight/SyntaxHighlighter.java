@@ -57,6 +57,11 @@ public class SyntaxHighlighter extends JScrollPane {
   protected String content;
 
   /**
+   * The type of this.content, null if unknown.
+   */
+  private String extension;
+
+  /**
    * Constructor.
    * @param parser the parser to use
    * @param theme the theme for the syntax highlighter
@@ -105,7 +110,7 @@ public class SyntaxHighlighter extends JScrollPane {
     if (content != null) {
       // stop the change listener on the row header to speed up rendering
       highlighterRowHeader.setListenToDocumentUpdate(false);
-      highlighter.setStyle(parser.parse(null, content));
+      highlighter.setStyle(parser.parse(extension, content));
       // resume the change listener on the row header
       highlighterRowHeader.setListenToDocumentUpdate(true);
       // notify the row header to update its information related to the SyntaxHighlighterPane
@@ -246,7 +251,11 @@ public class SyntaxHighlighter extends JScrollPane {
    * @throws IOException error occurred when reading the file
    */
   public void setContent(File file) throws IOException {
-    setContent(readFile(file));
+    setContent(readFile(file), getExtension(file.getAbsolutePath()));
+  }
+
+  public void setContent(String content) {
+    setContent(content, null);
   }
 
   /**
@@ -254,10 +263,19 @@ public class SyntaxHighlighter extends JScrollPane {
    * settings first and set this the last.
    * @param content the content to set, null means no content
    */
-  public void setContent(String content) {
+  public void setContent(String content, String filename) {
     this.content = content;
+    this.extension = getExtension(filename);
     highlighter.setContent(content);
     render();
+  }
+
+  private static String getExtension(String path) {
+    int extensionIndex = path.lastIndexOf(".");
+    if (extensionIndex != -1) {
+      return path.substring(extensionIndex + 1);
+    }
+    return "";
   }
 
   /**

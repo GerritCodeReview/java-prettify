@@ -45,6 +45,7 @@ import prettify.lang.LangScala;
 import prettify.lang.LangSql;
 import prettify.lang.LangTcl;
 import prettify.lang.LangTex;
+import prettify.lang.LangText;
 import prettify.lang.LangVb;
 import prettify.lang.LangVhdl;
 import prettify.lang.LangWiki;
@@ -392,6 +393,7 @@ public class Prettify {
       register(LangWiki.class);
       register(LangXq.class);
       register(LangYaml.class);
+      register(LangText.class);
     } catch (Exception ex) {
       LOG.log(Level.SEVERE, null, ex);
     }

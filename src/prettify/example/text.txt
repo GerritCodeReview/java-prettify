@@ -1,0 +1,11 @@
+noindentation
+ oneindentation
+  twoindentation
+   threeidentation
+  TABindentation
+1start_with_a_number
+A line with a ' unclosed character, like an apostrophe.
+A line with 1 as a number.
+A line with a ' which is closed here'.
+A line with a " which is unclosed.
+A line with a " which is closed here".
