@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "zuul-check:java-prettify": {
+      "state": "SCHEDULED",
+      "message": "Change has been enqueued in check",
+      "url": "https://ci.gerritcodereview.com/t/gerrit/status/change/347774,1",
+      "started": "2022-10-12T13:48:55Z",
+      "created": "2022-10-12T13:48:55Z",
+      "updated": "2022-10-12T13:48:55Z"
+    }
+  }
+}
