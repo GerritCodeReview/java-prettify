@@ -18,6 +18,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4da46b4f_b7d65e1c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1021893
+      },
+      "writtenOn": "2022-10-12T17:24:56Z",
+      "side": 1,
+      "message": "Ping @dmfilippov",
+      "revId": "188973a63650e3ff088b833bceda82e68ab7d528",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f0c7240d_4a69a026",
@@ -31,6 +48,30 @@
       "writtenOn": "2022-10-12T08:03:37Z",
       "side": 1,
       "message": "The getExtension method returns empty string if there is no extension. What is the difference between empty string and null?\n\nIf there is a difference - please add a comment in the code about it.\nIf there are no differences - optional: consider using the same value to mark unknown content (I would prefer to use empty string to avoid null references)",
+      "range": {
+        "startLine": 62,
+        "startChar": 17,
+        "endLine": 62,
+        "endChar": 26
+      },
+      "revId": "188973a63650e3ff088b833bceda82e68ab7d528",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "142fb8fc_8fd6a324",
+        "filename": "src/syntaxhighlight/SyntaxHighlighter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1021893
+      },
+      "writtenOn": "2022-10-12T17:24:56Z",
+      "side": 1,
+      "message": "Indeed the goal of `getExtension ` is to avoid `NullPointerException`. \n\nDone (all cases use empty string now).",
+      "parentUuid": "f0c7240d_4a69a026",
       "range": {
         "startLine": 62,
         "startChar": 17,
