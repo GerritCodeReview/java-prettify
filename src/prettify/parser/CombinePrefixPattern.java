@@ -159,6 +159,7 @@ public class CombinePrefixPattern {
     // -> [[1, 12], [14, 14], [16, 17]]
     Collections.sort(ranges, new Comparator<List<Integer>>() {
 
+      @SuppressWarnings("BoxedPrimitiveEquality")
       @Override
       public int compare(List<Integer> a, List<Integer> b) {
         return a.get(0) != b.get(0) ? (a.get(0) - b.get(0)) : (b.get(1) - a.get(1));
