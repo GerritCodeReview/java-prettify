@@ -161,7 +161,7 @@ public class CombinePrefixPattern {
 
       @Override
       public int compare(List<Integer> a, List<Integer> b) {
-        return a.get(0) != b.get(0) ? (a.get(0) - b.get(0)) : (b.get(1) - a.get(1));
+        return !a.get(0).equals(b.get(0)) ? (a.get(0) - b.get(0)) : (b.get(1) - a.get(1));
       }
     });
     List<List<Integer>> consolidatedRanges = new ArrayList<List<Integer>>();
