@@ -1,12 +1,13 @@
 {
   "checks": {
     "zuul-check:java-prettify": {
-      "state": "SCHEDULED",
-      "message": "Change has been enqueued in check",
-      "url": "https://ci.gerritcodereview.com/t/gerrit/status/change/388037,1",
+      "state": "NOT_RELEVANT",
+      "message": "Project has no jobs configured",
+      "url": "https://ci.gerritcodereview.com/t/gerrit/buildset/8863f1d887aa45dca4491c7a7752f2cc",
       "started": "2023-09-29T08:37:08Z",
+      "finished": "2023-09-29T08:37:10Z",
       "created": "2023-09-29T08:37:08Z",
-      "updated": "2023-09-29T08:37:08Z"
+      "updated": "2023-09-29T08:37:10Z"
     }
   }
 }
